@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0, user-scalable=no">
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+<!--This Section will be visible on Large devices only -->
+    <section class="container-fluid  d-none d-sm-none d-md-none d-lg-block">
+      <div class="row">
+<!--left side chat list -->
+        <div class="card col-lg-4">
+            <nav class="navbar navbar-light  card-header">
+              <a class="navbar-brand btn"><img src="images/user.png" class="rounded-circle"/></a>
+              <!--<div>-->
+                <a class="btn btn-default" title="Status"><img src="images/status.png" class="rounded-circle"/></a>
+                <a class="btn btn-default" title="New Chat"><img src="images/chat1.jpeg" class="rounded-circle"/></a>
+                <div class="dropdown">
+                  <a class="btn btn-default" href="#" role="button" title="Menu" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu" style="right:0; left:auto">
+                    <a class="dropdown-item" href="#">New group</a>
+                    <a class="dropdown-item" href="profile.html">Profile</a>
+                    <a class="dropdown-item" href="#">Archived</a>
+                    <a class="dropdown-item" href="#">Starred</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Log out</a>
+                  </div>
+                </div>
+              <!--</div>-->
+            </nav>
+
+            <div class="card-body">
+              <input class="form-control col-lg-12" type="search" placeholder="Search or Start new chat" aria-label="Search">
+
+                <div class="row" style="margin-top: 2%;">
+
+                  <img src="images/user.png" class="rounded-circle col-lg-2"/>
+
+                  <h2 class="col-lg-7" style="text-align: left">Friend1</h2>
+                  <h4 class="col-lg-3" style="text-align: right">5:17 pm</h4>
+                  <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-10"><a href="#">How are you?</a></p>
+
+                </div>
+                <div class="row">
+                  <img src="images/users.png" class="rounded-circle col-lg-2"/> <!--view of Group1 -->
+
+                  <h2 class="col-lg-7" style="text-align: left">Group1</h2>
+                  <h4 class="col-lg-3" style="text-align:right">5:40 pm</h4>
+                  <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-9"><a href="groupchat1.html">Member4: Whats up guys?</a></p>
+                  <span class="badge badge-pill badge-success btn-sm col-lg-1" style="height:30px">4</span>
+                </div>
+                <div class="row">
+                  <img src="images/user.png" class="rounded-circle col-lg-2"/> <!--view of Friend2 -->
+
+                  <h2 class="col-lg-7" style="text-align: left">Friend2</h2>
+                  <h4 class="col-lg-3" style="text-align:right">6:40 pm</h4>
+                  <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-10"><a href="#">See you tomorrow</a></p>
+                </div>
+                <div class="row">
+                  <img src="images/users.png" class="rounded-circle col-lg-2"/> <!--view of Group2 -->
+
+                  <h2 class="col-lg-7" style="text-align: left">Group2</h2>
+                  <h4 class="col-lg-3" style="text-align:right">6:42 pm</h4>
+                  <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-10"><a href="#">Member4: what a boring movie</a></p>
+              </div>
+              <div class="row">
+                <img src="images/users.png" class="rounded-circle col-lg-2"/> <!--view of Group3 -->
+
+                <h2 class="col-lg-7" style="text-align: left">Group3</h2>
+                <h4 class="col-lg-3" style="text-align:right">6:45 pm</h4>
+                <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-10"><a href="#">Member2: Dummy Message</a></p>
+              </div>
+              <div class="row">
+              <img src="images/users.png" class="rounded-circle col-lg-2"/> <!--view of Group4 -->
+
+              <h2 class="col-lg-7" style="text-align: left">Group4</h2>
+              <h4 class="col-lg-3" style="text-align:right">7:30 pm</h4>
+              <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-10"><a href="#">Member2: WhatsApp theme</a></p>
+            </div>
+            <div class="row">
+            <img src="images/user.png" class="rounded-circle col-lg-2"/> <!--view of friend3 -->
+
+            <h2 class="col-lg-7" style="text-align: left">Friend3</h2>
+            <h4 class="col-lg-3" style="text-align:right">7:42 pm</h4>
+            <p style="font-size: 1rem;text-align: left" class="offset-lg-2 col-lg-10"><a href="#">Testing</a></p>
+            </div>
+          </div>
+
+        </div>
+
+<!--right side initial image -->
+        <div class="card col-lg-8">
+          <div class="card-header" style="background-color:#eeeeee;">
+            <div class="row" >
+              <img src="images/user.png" class="rounded-circle col-lg-1"/> <!--view of friend1 -->
+
+              <h2 class="col-lg-7" style="text-align: left">Friend1</h2>
+              <a class="btn col-lg-1" href="#"><i class="fa fa-search "></i></a>
+              <a class="btn col-lg-1" href="#"><i class="fa fa-paperclip"></i></a>
+              <div class="dropdown col-lg-1">
+                <a class="btn btn-default" href="#" role="button" title="Menu" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                  <a class="dropdown-item" href="#">Contact info</a>
+                  <a class="dropdown-item" href="#">Select messages</a>
+                  <a class="dropdown-item" href="#">Mute</a>
+                  <a class="dropdown-item" href="#">Clear messages</a>
+                  <a class="dropdown-item" href="#">Delete Chat</a>
+                </div>
+              </div>
+              <p style="font-size: 1rem;text-align: left" class="offset-lg-1 col-lg-10">last seen today at 6:50 pm</p>
+          </div>
+
+          </div>
+          <div class="card-body" style="background-image: url('background.png')">
+            <div class="row">
+              <div class="alert alert-light col-lg-2 message " role="alert">
+                Hi
+                <div>5:15pm</div>
+              </div>
+            </div>
+            <div clas="row">
+              <div class="message1 offset-lg-10 alert alert-light col-lg-2" role="alert" >
+                Hi
+                <div>5:16pm</div>
+              </div>
+            </div>
+            <div clas="row">
+              <div class="alert alert-light col-lg-2 message" role="alert">
+                How are you?
+                <div>5:17pm</div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card-footer">
+          <div class="row" >
+            <i class="col-1 fa fa-smile fa-1x" ></i>
+            <input type="text" class="col-6" placeholder="Type a message" aria-label="message" aria-describedby="basic-addon1"></input>
+            <i class="col-1 fa fa-paperclip fa-1x"></i>
+            <i class="col-1 fa fa-camera fa-1x"></i>
+            <i class="col-2 fa fa-paper-plane fa-1x"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--This Section will be visible on Tablets and mobiles. -->
+    <section class="container-fluid d-block d-sm-block d-md-block d-lg-none d-xl-none " style="background-image: url('background.png')">
+
+
+          <div class="row card-header-mobile">
+            <a class="btn col-1" href="index.html"><i class="fa fa-arrow-left "></i></a>
+          <!--  <img src="user.png" class="rounded col-3" style="height: 20px"/> <!-view of friend1 -->
+            <i class="col-2 fa fa-user fa-2x" style="color:white"></i>
+            <h2 class="col-4" style="text-align: left; color:white">Friend1</h2>
+            <a class="btn col-1" href="#"><i class="fa fa-video" style="color:white"></i></a>
+            <a class="btn col-1" href="#"><i class="fa fa-phone " style="color:white"></i></a>
+            <span class="dropdown col-2">
+              <a class="btn btn-default" href="#" role="button" title="Menu" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-v" style="color:white"></i></a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu" style="right:0; left:auto">
+                <a class="dropdown-item" href="#">Contact info</a>
+                <a class="dropdown-item" href="#">Select messages</a>
+                <a class="dropdown-item" href="#">Mute</a>
+                <a class="dropdown-item" href="#">Clear messages</a>
+                <a class="dropdown-item" href="#">Delete Chat</a>
+              </div>
+            </span>
+            <p style="font-size: 1rem;text-align: left;color:white" class="offset-1 col-10">last seen today at 6:50 pm</p>
+        </div>
+
+          <div class="row" >
+            <div class="alert alert-light col-3 col-sm-2 message " role="alert">
+              Hi
+              <div>5:15pm</div>
+            </div>
+
+            <div class="message1 offset-9 alert alert-light col-3 offset-sm-10 col-sm-2" role="alert" >
+              Hi
+              <div>5:16pm</div>
+            </div>
+
+            <div class="alert alert-light col-4 col-sm-3 message" role="alert">
+              How are you?
+              <div>5:17pm</div>
+            </div>
+
+
+          </div>
+
+
+
+          <div class="row card-mobile" style="position: fixed; bottom:0;width:100%" >
+            <i class="col-1 fa fa-smile fa-1x" style="color: white;"></i>
+            <input type="text" class="col-6" placeholder="Type a message" aria-label="message" aria-describedby="basic-addon1"></input>
+            <i class="col-1 fa fa-paperclip fa-1x" style="color: white"></i>
+            <i class="col-1 fa fa-camera fa-1x" style="color: white"></i>
+            <i class="col-2 fa fa-paper-plane fa-1x" style="color: white;"></i>
+          </div>
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

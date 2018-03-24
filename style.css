@@ -1,0 +1,127 @@
+.root{
+  font-size: 24px;
+}
+.right{
+  background-image: url('whatsapp_image.png');
+  width: 100%;
+  height: 100%;
+}
+.navbar-light{
+  background-color: #eeeeee;
+}
+.navbar{
+  margin: 0%;
+}
+.rounded-circle{
+  height: 30px;
+  width: 30px;
+}
+.btn-white{
+  background-color: white;
+  border-color: none;
+}
+h2{
+  font-size:1.3rem;
+}
+h4{
+  font-size: 1rem;
+}
+.btn-white:hover{
+  background-color:#eeeeee ;
+}
+.card{
+  padding: 0%;
+  margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.profile-header{
+  background-color: #00bfa5;
+  color: white;
+  height: 20%;
+  padding-top: 18%;
+}
+.fa-arrow-left{
+  color: white;
+}
+
+.btn-rounded{
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-top: 80%;
+}
+.circle{
+  border-radius: 50%;
+}
+.message{
+  color: black;
+}
+.message div{
+  text-align: right;
+  font-size: 0.8rem;
+}
+.message1{
+  color: black;
+  background-color: #dcf8c6;
+}
+.message1 div{
+  text-align: right;
+  font-size: 0.8rem;
+}
+.navbar-brand{
+  text-align: left;
+}
+.navbar-mobile{
+  background-color: #128C7E;
+  color: white;
+}
+.nav-tabs{
+  background-color: #128C7E;
+
+}
+.nav-item a{
+  color: white;
+}
+.mobile-row img{
+  height: 5rem;
+}
+.mobile-row{
+  padding-top: 4%;
+}
+.profile-mobile-header{
+  background-color: #128C7E;
+  color: white;
+
+  padding-top: 2%;
+}
+.profile-image{
+  border-radius: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.fa-user1{
+  padding-top:20%;
+  padding-bottom:20%;
+}
+.photo-header{
+  background-color: black;
+  color: white;
+}
+.profile-row{
+    margin: 1%;
+    padding: 1%;
+}
+.card-header-mobile{
+  background-color:#128C7E ;
+  padding: 2%;
+}
+.card-mobile{
+  background-color:#128C7E ;
+padding-top: 2%;
+padding-bottom: 2%
+}
+body, html, .container-fluid {
+     height: 100%;
+}
